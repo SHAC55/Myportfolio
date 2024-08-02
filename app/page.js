@@ -13,7 +13,7 @@ const page = () => {
     <div className='flex xl:flex-row flex-col items-center xl:items-start p-10'>
          
       {/* lhs */}
-      <div className='flex flex-col items-center p-3 rounded-3xl' style={{backgroundColor:'#1e1e1e',width:'330px', height:'845px'}}>
+      <div className='flex flex-col items-center p-3 rounded-3xl ' style={{backgroundColor:'#1e1e1e',width:'330px', height:'845px'}}>
 
         <Profile/>
         <Personalinfo/>
@@ -23,15 +23,15 @@ const page = () => {
       </div>
 
       {/* rhs */}
-      <div className='ml-3 md:ml-10 rounded-3xl overflow-y-scroll mt-10 xl:mt-0' style={{backgroundColor:'#1e1e1e' , width:'90vw',height:'845px',minWidth:'510px'}}>
+      <div className='ml-3 md:ml-10 rounded-3xl overflow-y-scroll mt-10 xl:mt-0 scrollbar-hide' style={{backgroundColor:'#1e1e1e' , width:'90vw',height:'845px',minWidth:'370px'}}>
         
 
-        <div >
-        <span className='text-3xl relative top-8 left-8 xl:text-5xl xl:visible invisible'>ABOUT US</span>
+        <div>
+        <span className='relative xl:top-8 sm:top-40 top-52 left-8 text-5xl '>ABOUT US</span>
         <Nav/>
         </div>
 
-        <div >
+        <div className='w-full'>
           <Intro/>
         </div>
 

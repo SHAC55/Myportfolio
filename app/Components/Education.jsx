@@ -9,9 +9,9 @@ const Education = () => {
       ];
   return (
     <>
-    <hr className='ml-8 mr-8 mt-16' style={{border:'1px solid gray'}}></hr>
+    <hr className='ml-8 mr-8 ' style={{border:'1px solid gray'}}></hr>
 
-    <div className="flex items-center justify-center  relative p-8 mt-10">
+    <div className="flex flex-col md:flex-row items-center justify-center  relative p-8 mt-10">
 
     <div className='p-10 flex flex-col justify-center items-center'>
     <img src='https://cdn-icons-png.flaticon.com/128/16811/16811637.png' className='h-28'></img>

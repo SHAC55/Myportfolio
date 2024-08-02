@@ -12,7 +12,9 @@
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
-    "react-router-dom": "^6.25.1"
+    "react-router-dom": "^6.25.1",
+    "styled-components": "^6.1.12",
+    "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
     "postcss": "^8",

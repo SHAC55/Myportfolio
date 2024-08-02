@@ -8,7 +8,7 @@ const Experience = () => {
   return (
     <>
     
-    <div className="flex items-center justify-center  relative p-8 mt-10">
+    <div className="flex flex-col md:flex-row  items-center justify-center  relative p-8 mt-10">
 
       <div className='p-10 mb-5 flex flex-col justify-center items-center'>
       <img src='https://cdn-icons-png.flaticon.com/128/8078/8078678.png' className='h-24 pr-3'></img>

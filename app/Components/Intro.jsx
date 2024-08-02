@@ -2,13 +2,13 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <div className='p-8 text-2xl text-gray-400 '>
-        <p className=' w-fit' >
+    <div className='p-8 text-2xl xl:mt-10 mt-8 text-gray-400 relative bottom-20 w-full'>
+        <p className=' w-full' >
         I am a third-year Electronic and Computer Science student at Rizvi College of Engineering (Mumbai University).
         I am passionate about leveraging technology to solve complex problems. My academic journey has equipped
          me with solid theoretical knowledge and practical skills, preparing me to excel in dynamic and challenging environments. 
         </p>
-        <p className='mt-5 w-fit' >
+        <p className='mt-5 w-full' >
       I am a dedicated frontend web developer specializing in crafting 
       responsive and interactive user interfaces. With expertise in HTML,
        CSS, Tailwind CSS, JavaScript, and React.js, I bring designs to life

@@ -14,9 +14,9 @@ const Coding = () => {
   return (
     <>
        <div className="">
-      <div className="flex items-center justify-evenly mt-8 flex-wrap  " >
+      <div className="flex items-center justify-evenly  flex-wrap  " >
         {skills.map((skill, index) => (
-          <div key={index} className="flex flex-row p-5 m-10 rounded-2xl cursor-pointer hover:bg-neutral-700 transition-all duration-300" style={{border:'1px solid gray',width:'300px'}}>
+          <div key={index} className="flex flex-row p-5 m-10 rounded-2xl cursor-pointer hover:bg-neutral-700 transition-all duration-300" style={{border:'1px solid gray',width:'300px' ,}}>
             <img src={skill.icon} className="flex justify-center items-center h-16" />
             <p className="flex justify-center items-end mt-7 p-3 text-xl font-semibold">{skill.name}</p>
           </div>

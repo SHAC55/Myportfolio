@@ -21,10 +21,10 @@ const Project = () => {
           <img src={port.img}  className='' style={{minWidth:'20vw',height:'300px'}}></img>
           <h1 className='flex items-center justify-center p-5 text-2xl font-semibold text-white'>{port.title}</h1>
           <ul className='flex p-2'>
-              {port.tech1 && <li className='p-2 rounded-lg ml-8' style={{ backgroundColor: '#202020' }}>{port.tech1}</li>}
-              {port.tech2 && <li className='p-2 rounded-lg ml-8' style={{ backgroundColor: '#202020' }}>{port.tech2}</li>}
-              {port.tech3 && <li className='p-2 rounded-lg ml-8' style={{ backgroundColor: '#202020' }}>{port.tech3}</li>}
-              {port.tech4 && <li className='p-2 rounded-lg ml-8' style={{ backgroundColor: '#202020' }}>{port.tech4}</li>}
+              {port.tech1 && <li className='p-2 rounded-lg sm:ml-8 ml-5 ' style={{ backgroundColor: '#202020' }}>{port.tech1}</li>}
+              {port.tech2 && <li className='p-2 rounded-lg sm:ml-8 ml-5 ' style={{ backgroundColor: '#202020' }}>{port.tech2}</li>}
+              {port.tech3 && <li className='p-2 rounded-lg sm:ml-8 ml-5 ' style={{ backgroundColor: '#202020' }}>{port.tech3}</li>}
+              {port.tech4 && <li className='p-2 rounded-lg sm:ml-8 ml-5 ' style={{ backgroundColor: '#202020' }}>{port.tech4}</li>}
             </ul>
         </div>
 

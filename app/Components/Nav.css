@@ -1,0 +1,11 @@
+.bars{
+    display: none;
+}
+@media (max-width:631px){
+    .bars{
+        display: flex;
+        justify-content: end;
+        position: relative;
+        bottom: 100px;
+    }
+}
